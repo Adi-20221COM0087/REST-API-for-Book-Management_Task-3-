@@ -1,1 +1,5 @@
 # REST-API-for-Book-Management_Task-3-
+
+This project is a simple Book Management REST API developed using Node.js and Express.js. The primary requirement of the task was to create a RESTful service capable of performing basic CRUD operations (Create, Read, Update, Delete) on a collection of books, while storing all data in memory only—without using any databases or file-based storage. The API needed to expose clear endpoints for managing books and demonstrate the use of middleware, request handling, and routing in Express.
+
+In addition to fulfilling all core requirements, several enhancements were implemented to improve functionality and code quality. These include a search endpoint (GET /books/search) allowing users to filter books by title or author, duplicate book validation to prevent adding or updating books with identical title–author pairs, sequential numeric ID generation, and a logging middleware that records each incoming request. These enhancements improve usability and robustness while still respecting the original constraint of in-memory data storage.
